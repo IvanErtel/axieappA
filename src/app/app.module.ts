@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {Component} from '@angular/core';
+//import { Component } from '@angular/core';  Este no va, se ve que se escapo en un copy-paste
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
@@ -32,7 +32,7 @@ import {MatCardModule} from '@angular/material/card';
     BrowserAnimationsModule,
     MatSliderModule,
     MatToolbarModule,
-    Component,
+    //Component, Este no va, se ve que se escapo en un copy-paste
     MatCardModule,
   ],
   providers: [],
